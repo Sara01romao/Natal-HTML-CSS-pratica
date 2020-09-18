@@ -1,3 +1,6 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" ;
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -12,8 +15,8 @@ body{
 
 header{
     padding: 32px;
-    background: rgba(255, 230, 4, 0.404);
-    border-bottom: 1px solid #b36f09;
+    background: linear-gradient(to bottom right, rgb(245, 153, 110), rgb(241, 241, 14));
+    border-bottom: 1px solid #eedcc1;
 }
 
 
@@ -26,29 +29,17 @@ header div a{
     margin: 0px 15px;
     text-decoration: none;
     line-height: 28px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(221, 131, 12) ;
     
 }
 
 header div a:hover{
-    color: rgb(236, 143, 22);
+    color: white;
     transition: color 500ms;
 }
 
 
 
 
-
-main{
-    border-bottom: 1px solid cornflowerblue;
-    background-image: url(img/m2.jpg) ;
-    background-repeat: no-repeat;
-  
-    height: 400px;
-    
-}
-.home{
-    padding: 100px 100px;
-    
-
-}
 
