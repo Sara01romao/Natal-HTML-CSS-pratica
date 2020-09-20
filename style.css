@@ -12,7 +12,11 @@ body{
   background: rgb(250, 244, 210);
   font-family: 'Roboto', sans-serif;
 }
-
+#logo{
+    margin-left: 0px;
+    
+    font-size: 30px;
+}
 header, footer{
     padding: 32px;
     background: linear-gradient(to bottom right, rgb(245, 153, 110), rgb(241, 241, 14));
