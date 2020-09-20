@@ -13,7 +13,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-header{
+header, footer{
     padding: 32px;
     background: linear-gradient(to bottom right, rgb(245, 153, 110), rgb(241, 241, 14));
     border-bottom: 1px solid #eedcc1;
@@ -39,7 +39,15 @@ header div a:hover{
     transition: color 500ms;
 }
 
+i{
+   
+    color: black;
+}
 
+footer a {
+    font-size: 30px;
+    margin-left: 20px;
+}
 
 
 
