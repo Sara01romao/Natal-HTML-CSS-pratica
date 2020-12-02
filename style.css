@@ -1,57 +1,32 @@
-@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" ;
-
-
 *{
-    margin: 0px;
-    padding: 0px;
-    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-
-body{
-  background: rgb(250, 244, 210);
-  font-family: 'Roboto', sans-serif;
+header{
+    height: 50px;
+    border-bottom: 2px solid black;
 }
-#logo{
-    margin-left: 0px;
+nav{
+    margin-top: 20px;
+    display: inline;
+    max-width: 500px;
     
-    font-size: 30px;
-}
-header, footer{
-    padding: 32px;
-    background: linear-gradient(to bottom right, rgb(245, 153, 110), rgb(241, 241, 14));
-    border-bottom: 1px solid #eedcc1;
 }
 
 
-header div{
-    text-align: center;
+nav ul{
+    list-style-type: none;
+    display: flex;
+    float:right;
 }
 
-header div a{
-    color: black;
-    margin: 0px 15px;
+nav ul li{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+a{
     text-decoration: none;
-    line-height: 28px;
-    font-weight: bold;
-    border-bottom: 2px solid rgb(221, 131, 12) ;
-    
-}
-
-header div a:hover{
-    color: white;
-    transition: color 500ms;
-}
-
-i{
-   
     color: black;
 }
-
-footer a {
-    font-size: 30px;
-    margin-left: 20px;
-}
-
-
-
