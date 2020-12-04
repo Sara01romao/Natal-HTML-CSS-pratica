@@ -78,3 +78,40 @@ header ul li a:hover{
     font-weight:700;
     font-size: 18px;
 }
+
+
+.redes{
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    margin: 0px 50px;
+    flex-direction: column;
+    
+}
+
+.redes img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+/*********************************/
+.panetones{
+    display: flex;
+}
+
+.panetones h1{
+    margin: 50px;
+    
+    flex-wrap: nowrap;
+    
+}
+
+
+.panetones img{
+    max-width: 500px;
+    height: 300px;
+   
+    
+}
