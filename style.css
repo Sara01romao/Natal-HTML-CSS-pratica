@@ -13,6 +13,7 @@
     text-align: center;
     color: #fff;
     
+    margin-bottom: 50px;
     
 
 }
@@ -99,20 +100,71 @@ header ul li a:hover{
 
 /*********************************/
 .panetones{
+    
     display: flex;
+    flex-wrap: wrap;
+   
+
 }
 
-.panetones h1{
-    margin: 50px;
-    
-    flex-wrap: nowrap;
+.dois h1{
+  font-size: 50px;
+}
+
+.panetones h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+   
     
 }
+.tipo1, .tipo2{
+    margin: 50px auto;
+}
+
+.dois h1{
+    text-align: center;
+    color: rgb(5, 133, 80);
+}
+.start{
+    color: darkgoldenrod;
+    font-size: 50px;
+    text-align: center;
+}
+
 
 
 .panetones img{
-    max-width: 500px;
-    height: 300px;
+    max-width: 800px;
+    height: 500px;
    
-    
+}
+
+
+.tres{
+    background-color: rgba(185, 216, 226, 0.616);
+    max-width: auto;
+
+}
+
+.tres h1{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: rgb(5, 133, 80);
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.decoracoes{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.tres img{
+    width: 300px;
+    height: 300px;
 }
