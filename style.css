@@ -139,6 +139,7 @@ header ul li a:hover{
    
 }
 
+/********************************************/
 
 .tres{
     background-color: rgba(185, 216, 226, 0.616);
@@ -159,12 +160,58 @@ header ul li a:hover{
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    
+    
+    
 }
 
 
+.decoracoes img{
+    
+    margin: 10px 0px 50px 50px;
+  
+}
+
+.d1{
+    margin: 0 auto;
+}
 
 
 .tres img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
+
+
+.decoracao2{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.d2{
+    margin: 0 auto;
+}
+
+.d2 p, h4{
+    max-width: 850px;
+    
+    
+    
+}
+
+.d2 h4{
+  
+    margin-top: 90px;
+    
+}
+
+.decoracao2 img{
+    max-width: 400px;
+    height: 300px;
+    
+    float: left;
+   
+    margin: 30px 50px;
+    
+}
+
