@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+.home{
+    background: url('/img/bg-home.jpg') no-repeat center center;
+    background-size: cover;
+    
+    padding: 350px 0px;
+    text-align: center;
+    color: #fff;
+    
+    margin-bottom: 50px;
+    
+
+}
+
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 235, 205, 0);
+    border-bottom: 1px solid black;
+    
+}
+
+header .logo{
+    position: relative;
+    width: 200px;
+    height: 50px;
+   
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+
+header ul li a{
+    display: inline;
+    color: rgb(2, 2, 2);
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+header ul li a:hover{
+    border-bottom: 2px solid rgb(240, 57, 57);
+    color: rgb(121, 115, 115);
+
+}
+
+.texto{
+   
+    max-width: 600px;
+    position: relative;
+    bottom: 180px;
+    margin: 0 auto;
+}
+
+.texto h1{
+    color: rgba(245, 28, 28, 0.877);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.texto p{
+    margin-top: 20px;
+    color: black;
+    font-weight:700;
+    font-size: 18px;
+}
+
+
+.redes{
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    margin: 0px 50px;
+    flex-direction: column;
+    
+}
+
+.redes img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+/*********************************/
+.panetones{
+    
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.dois h1{
+  font-size: 50px;
+}
+
+.panetones h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+   
+    
+}
+.tipo1, .tipo2{
+    margin: 50px auto;
+}
+
+.dois h1{
+    text-align: center;
+    color: rgb(5, 133, 80);
+}
+.start{
+    color: darkgoldenrod;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+.panetones img{
+    max-width: 800px;
+    height: 500px;
+   
+}
+
+/********************************************/
+
+.tres{
+    background-color: rgba(185, 216, 226, 0.616);
+    max-width: auto;
+
+}
+
+.tres h1{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: rgb(5, 133, 80);
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.decoracoes{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+
+.decoracoes img{
+    
+    margin: 10px 0px 50px 50px;
+  
+}
+
+.d1{
+    margin: 0 auto;
+}
+
+
+.tres img{
+    width: 250px;
+    height: 250px;
+}
+
+
+.decoracao2{
+    margin-top: 60px;
+    display: flex;
+}
+
+.d2{
+    margin: 0 auto;
+}
+
+.d2 p, h4{
+    max-width: 850px;
+    
+    
+    
+}
+
+.d2 h4{
+  
+    margin-top: 90px;
+    
+}
+
+.decoracao2 img{
+    max-width: 400px;
+    height: 300px;
+    
+    float: left;
+   
+    margin: 30px 50px;
+    
+}
+
