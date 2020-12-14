@@ -242,3 +242,28 @@ header ul li a:hover{
     
 }
 
+
+footer{
+    display: flex;
+    
+   
+
+}
+
+.contato{
+    font-size: 18px;
+    margin: 0 auto;
+    border: 1px solid black;
+   
+}
+
+
+.redes{
+    margin: 50px auto;
+    font-size: 18px;
+    
+}
+
+.redeIcon{
+    display: flex;
+}
